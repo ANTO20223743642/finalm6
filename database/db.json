@@ -1,0 +1,92 @@
+{
+  "categoria": [
+    {
+      "categoria": "Nacimiento",
+      "contenido": "Partidas de Nacimiento",
+      "terminado": true,
+      "id": 1
+    },
+    {
+      "categoria": "Matrimonio",
+      "contenido": "Partidas de Matrimonio",
+      "terminado": true,
+      "id": 2
+    },
+    {
+      "categoria": "Defuncion",
+      "contenido": "Partidas de Defunciones",
+      "terminado": true,
+      "id": 3
+    },
+    {
+      "categoria": "Matrimonio",
+      "contenido": "Partidas de Matrimonio",
+      "terminado": true,
+      "id": 4
+    }
+  ],
+  "Libros": [
+    {
+      "id": 1,
+      "Oficialia": "30101001",
+      "libro": "LIBN-01",
+      "Fi": "02/02/2021",
+      "Ff": "12/03/2021",
+      "CategoriaId": 1,
+      "terminado": true,
+      "DigitalizadoId": 1
+    },
+    {
+      "id": 2,
+      "Oficialia": "30101001",
+      "libro": "LIBN-02",
+      "Fi": "13/03/2021",
+      "Ff": "22/06/2021",
+      "CategoriaId": 1,
+      "terminado": true,
+      "DigitalizadoId": 2
+    },
+    {
+      "id": 3,
+      "Oficialia": "30101001",
+      "libro": "LIBM,-01",
+      "Fi": "05/06/2021",
+      "Ff": "22/08/2021",
+      "CategoriaId": 2,
+      "terminado": true,
+      "DigitalizadoId": 2
+    }
+  ],
+  "Digitalizados":[
+     {
+    "id": 1,
+    "rcb": "RCB154275",
+    "zip": "1001.zip",
+    "LibrosId": 1,
+    "FechaDigitalizado": "13/03/2021"
+  } 
+  ],
+  "ImagenesLibros":[
+  {
+   "id": 1,
+   "imagen": "img01.jpg",
+   "partida": 1,
+   "folio": 1,
+   "DigitalizadosId": 1
+  },
+  {
+    "id": 2,
+    "imagen": "img02.jpg",
+    "partida": 2,
+    "folio": 2,
+    "DigitalizadosId": 1
+   },
+   {
+    "id": 3,
+    "imagen": "img03.jpg",
+    "partida": 3,
+    "folio": 3,
+    "DigitalizadosId": 1
+   }
+ ]
+}
